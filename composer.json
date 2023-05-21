@@ -1,0 +1,12 @@
+{
+    "name": "fdfkc/otus-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fdfkc\\OtusComposerPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
