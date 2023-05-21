@@ -17,6 +17,11 @@ $ composer require fdfkc/otus-composer-package
 
 ```php
 <?php
+
+require 'vendor/autoload.php';
+
+use \Fdfkc\OtusComposerPackage\TimeProcessor;
+
 $processor = new TimeProcessor();
-echo $processor->getCurrentYear(); // 2023
+echo $processor->getCurrentYear(); // '2023'
 ```
